@@ -1,4 +1,4 @@
-# 🛒 ShopEase — Full-Stack E-Commerce System
+#  ShopEase — Full-Stack E-Commerce System
 
 A complete, production-ready e-commerce application with React frontend,
 FastAPI backend, PostgreSQL databases, automated ETL, and analytics dashboard.
