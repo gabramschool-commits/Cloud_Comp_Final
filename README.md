@@ -5,7 +5,7 @@ FastAPI backend, PostgreSQL databases, automated ETL, and analytics dashboard.
 
 ---
 
-## 🚀 Quick Start (Local Development)
+##  Quick Start (Local Development)
 
 ### Prerequisites
 - Python 3.10+
@@ -68,7 +68,7 @@ python etl/etl_pipeline.py
 
 ---
 
-## 🔑 Demo Accounts
+##  Demo Accounts
 | Role     | Email                    | Password     |
 |----------|--------------------------|--------------|
 | Admin    | admin@shopease.com       | admin123     |
@@ -76,27 +76,22 @@ python etl/etl_pipeline.py
 
 ---
 
-## 📋 Features
-- ✅ Product browsing, search, filtering by category
-- ✅ Shopping cart with quantity management
-- ✅ User registration and login (JWT)
-- ✅ Order placement and tracking
-- ✅ Admin dashboard (manage products, orders, users)
-- ✅ Reporting dashboard (charts: revenue, orders, top products, customers)
-- ✅ Automated ETL pipeline (cron every 15 min)
-- ✅ Separate reporting database for analytics
+##  Features
+-  Product browsing, search, filtering by category
+-  Shopping cart with quantity management
+-  User registration and login (JWT)
+-  Order placement and tracking
+-  Admin dashboard (manage products, orders, users)
+-  Reporting dashboard (charts: revenue, orders, top products, customers)
+-  Automated ETL pipeline (cron every 15 min)
+-  Separate reporting database for analytics
 
 ---
 
-## 🌐 VPS Deployment
-See [docs/DEPLOYMENT_GUIDE.md](docs/DEPLOYMENT_GUIDE.md) for the complete
-step-by-step deployment guide for Hostinger Ubuntu VPS.
 
----
-
-## 📁 Project Structure
+##  Project Structure
 ```
-ecommerce/
+Cloud_Comp_Final/
 ├── backend/          # FastAPI Python backend
 ├── frontend/         # React + Vite frontend
 ├── nginx/            # nginx server config
