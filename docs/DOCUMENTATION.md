@@ -305,9 +305,9 @@ ecommerce/
 
 | Member | Role           | Responsibilities                             |
 |--------|----------------|----------------------------------------------|
-| [Name] | Backend Dev    | FastAPI, SQLAlchemy models, JWT auth         |
-| [Name] | Frontend Dev   | React pages, Zustand store, TailwindCSS      |
-| [Name] | DevOps/DB      | PostgreSQL setup, ETL pipeline, VPS deploy   |
+| Emmanuel Sevilla | Backend Dev    | FastAPI, SQLAlchemy models, JWT auth         |
+| Gabriella Mae Lapad | Frontend Dev   | React pages, Zustand store, TailwindCSS      |
+| Gabriel Mar Ramirez | DevOps/DB      | PostgreSQL setup, ETL pipeline, VPS deploy   |
 
 ---
 
