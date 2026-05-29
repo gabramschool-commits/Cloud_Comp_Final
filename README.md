@@ -1,23 +1,23 @@
-# 🛒 ShopEase — Full-Stack E-Commerce System
+#  ShopEase — Full-Stack E-Commerce System
 
 > A complete, production-ready e-commerce application built as a Final Project.
 > Live and deployed on a cloud VPS — accessible from anywhere in the world.
 
 ---
 
-## 🌐 Live Application
+##  Live Application
 
 | Page | URL |
 |---|---|
-| 🏠 Homepage | http://72.60.232.167 |
-| 📦 Products | http://72.60.232.167/products |
-| 🔧 Admin Dashboard | http://72.60.232.167/admin |
-| 📊 Reports Dashboard | http://72.60.232.167/admin/reports |
-| 📄 API Documentation | http://72.60.232.167/docs |
+|  Homepage | http://72.60.232.167 |
+|  Products | http://72.60.232.167/products |
+|  Admin Dashboard | http://72.60.232.167/admin |
+|  Reports Dashboard | http://72.60.232.167/admin/reports |
+|  API Documentation | http://72.60.232.167/docs |
 
 ---
 
-## 👥 Demo Accounts
+##  Demo Accounts
 
 | Role | Email | Password |
 |---|---|---|
@@ -26,7 +26,7 @@
 
 ---
 
-## 📖 What is ShopEase?
+##  What is ShopEase?
 
 ShopEase is a fully functional online shopping platform where customers can browse
 products, add items to their cart, place orders, and track their purchases.
@@ -39,20 +39,20 @@ runs every 15 minutes in the background.
 
 ---
 
-## ✨ Features
+##  Features
 
 ### For Customers
-- 🔍 Browse and search products by name or category
-- 🛒 Add items to cart with quantity management
-- 💳 Place orders with shipping address
-- 📦 Track order status (Pending → Processing → Shipped → Delivered)
-- 👤 Register and login with secure JWT authentication
+-  Browse and search products by name or category
+-  Add items to cart with quantity management
+-  Place orders with shipping address
+-  Track order status (Pending → Processing → Shipped → Delivered)
+-  Register and login with secure JWT authentication
 
 ### For Administrators
-- 📋 Manage products — add, edit, delete
-- 🗂️ View and update all customer orders
-- 👥 View all registered users
-- 📊 Full reporting dashboard with live charts:
+-  Manage products — add, edit, delete
+-  View and update all customer orders
+-  View all registered users
+-  Full reporting dashboard with live charts:
   - Total revenue and order counts
   - Revenue over the last 30 days (line chart)
   - Orders over the last 30 days (bar chart)
@@ -62,7 +62,7 @@ runs every 15 minutes in the background.
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 User's Browser
@@ -90,7 +90,7 @@ User's Browser
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -112,7 +112,7 @@ User's Browser
 
 ---
 
-## 🗄️ Database Design
+##  Database Design
 
 ### Main Database — `shopdb`
 Stores all live transactional data:
@@ -131,7 +131,7 @@ Stores pre-aggregated analytics data for fast dashboard reads:
 
 ---
 
-## ⚙️ ETL Pipeline
+##  ETL Pipeline
 
 The ETL (Extract → Transform → Load) pipeline is a Python script that:
 
@@ -143,7 +143,7 @@ The ETL (Extract → Transform → Load) pipeline is a Python script that:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ShopEase/
@@ -182,7 +182,7 @@ ShopEase/
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 
 - Passwords hashed with **bcrypt** — never stored in plain text
 - **JWT tokens** expire after 60 minutes
